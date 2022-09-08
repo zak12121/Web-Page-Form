@@ -1,0 +1,103 @@
+nav, footer, nav a, footer a {
+    background-color: #133854;
+    color: white;
+    font-size: 18pt;
+}
+
+nav {
+    text-align: left;
+    padding: 10;
+}     
+
+section {
+    font-size: 20pt;
+}
+
+
+
+footer {
+    text-align: right;
+    padding: 10px;
+}
+
+
+
+footer img {
+    height: 100px;
+    padding-right: 10px;
+    float:left
+}
+
+img.right {
+    float: right;
+    padding : 20 px 20 pz 0 px 0 px;
+    
+}
+input[type=text] {
+    padding:10px;
+    margin:10px 0; 
+  }
+  .weekDays-selector input {
+    display: none!important;
+  }
+  
+  .weekDays-selector input[type=checkbox] + label {
+    display: inline-block;
+    border-radius: 6px;
+    background: #dddddd;
+    height: 40px;
+    width: 30px;
+    margin-right: 3px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .weekDays-selector input[type=checkbox]:checked + label {
+    background: #2AD705;
+    color: #ffffff;
+  }
+  input[type=text] {
+    border: 2px solid #133854;
+    border-radius: 4px;
+  }
+  input[type=number] {
+    border: 2px solid #133854;
+    border-radius: 4px;
+  }
+  input[type=time] {
+    border: 2px solid #133854;
+    border-radius: 4px;
+  }
+  input[type=submit] {
+    background-color: #133854;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  .column {
+      float: right;
+  }
+  input[type=email] {
+    border: 2px solid #133854;
+    border-radius: 4px;
+}
+input[type=tel] {
+    border: 2px solid #133854;
+    border-radius: 4px;
+}
+.alert{
+  color:red;
+}
+form {
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 8px  #669999; 
+  }
+  

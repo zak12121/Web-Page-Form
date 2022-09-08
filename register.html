@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zakaria Chatta">
+    <meta name="email" content="chat0109@algonquinlive.com">
+    <title>Register</title>
+
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <script src="register.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/fluffylogo(300X300).png" alt="happy cat logo">
+        <img src="images/companyname(1113X300).jpg" alt="fluffy friends cat daycare" id="coname">
+    </header>
+    <nav>
+        <a href="register.html">Home</a>
+    </nav>
+    <h1>Cat Intake Form</h1>
+    <form name="profile" method="get">
+        <ul>
+
+        <img class="right" src="images/sleepingcats.jpg" alt="cats">
+
+         <li>
+          <label for="Name">Name Of Cat</label><br>
+          <input type="text" id="Name" name="Name" ><br>
+          <span class="alert" id="NameError"></span><br><br>
+        </li>
+
+
+          <li>
+          <label for="Age">Age Of Cat</label><br>
+          <input type="number" id="Age" name="Age"><br>
+          <span class="alert" id="AgeError"></span><br><br>
+        </li>
+
+        <li>
+          <div class="weekDays-selector">
+            <label for="days">Days Needed</label><br>
+            <input type="checkbox" id="weekday-mon" class="weekday" />
+            <label for="weekday-mon">Mon</label>
+            <input type="checkbox" id="weekday-tue" class="weekday" />
+            <label for="weekday-tue">Tue</label>
+            <input type="checkbox" id="weekday-wed" class="weekday" />
+            <label for="weekday-wed">Wed</label>
+            <input type="checkbox" id="weekday-thu" class="weekday" />
+            <label for="weekday-thu">Thu</label>
+            <input type="checkbox" id="weekday-fri" class="weekday" />
+            <label for="weekday-fri">Fri</label>
+            <input type="checkbox" id="weekday-sat" class="weekday" />
+            <label for="weekday-sat">Sat</label>
+            <input type="checkbox" id="weekday-sun" class="weekday" />
+            <label for="weekday-sun">Sun</label>
+            <span class="alert" id="weekError"></span><br><br>
+          </div>
+        </li>
+          <br><br>
+            
+          <li>
+          <label for="appt-time">Time Arrive </label>
+           <input id="appt-time" type="time" name="oppt-time" value="09:30">
+           <span class="alert" id="timeError"></span><br><br>
+        </li>
+
+           <li>
+           <label for="oppt-time">Time Leave </label>
+           <input id="oppt-time" type="time" name="oppt-time" value="04:30">
+           <span class="alert" id="leaveTimeError"></span><br><br>
+        </li>
+
+            <li>
+           <input type="checkbox" id="spayed" name="spayed" value="spayed">
+           <label for="spayed">Cat Spayed/Neutred </label><br>
+        </li>
+
+            <li>
+           <input type="checkbox" id="diet" name="diet" value="diet">
+           <label for="diet">Special Diet </label><br>
+            </li>
+
+            <li>
+           <label for="catDiet">Describe Diet</label>
+           <input type="text" id="name" name="name" ><br> <br>
+        </li>
+
+        <li>
+
+           <label for="OName">Owner's Name</label><br>
+          <input type="text" id="OName" name="OName" ><br>
+          <span class="alert" id="ONameError"></span><br><br>
+        </li>
+
+        <li>
+          <label for="phone">Daytime Phone</label>
+          <input type="tel" id="Dphone" name="Dphone"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+           <span class="alert" id="DphoneError"></span><br><br>
+        </li>
+
+        <li>
+
+           <label for="emails">Email (optional) :</label>
+          <input type="email" id="emails" name="emails" multiple><br><br>
+          <span class="alert" id="emailError"></span><br><br>
+        </li>
+
+        <li>
+          <label for="EName">Emergency Contact Name</label><br>
+          <input type="text" id="EName" name="EName"><br>
+          <span class="alert" id="ENameError"></span><br><br>
+        </li>
+
+          <li>
+          <label for="Cphone">Contact Phone</label>
+          <input type="tel" id="Cphone" name="Cphone"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+           <span class="alert" id="CphoneError"></span><br><br>
+        </li>
+
+
+
+
+ <br><br><br>
+          <div class="submit">
+          <input type="submit" value="Submit" name="submit">
+
+<br><br><br> <br><br><br> <br><br><br>
+
+
+          </ul>
+          </form>
+
+
+
+
+
+
+    <footer>
+        <img src="images/PetDiversityPlusLogo.png" alt="logo">
+        <img src="images/BBBcertified.png" alt="certificate">
+        <address>
+            123 Fluffy Street<br>
+            Ottawa, Ontario
+        </address>
+            (613) 123-CATS<br>
+            <a href="mailto:fluffyfriends@catdaycare.ca?subject=inquiry%20from%20website">
+                fluffyfriends@catdaycare.ca</a>             
+    </footer>
+</body>
+</html>
